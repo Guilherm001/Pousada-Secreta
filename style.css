@@ -5,14 +5,35 @@ body{
     font-family: 'Source Sans Pro';
 }
 .topo{
-    display: flex;
+    position: relative;
     width: 1024px;
-    height: 30px;
     margin: auto;
-    background-color: aquamarine;
+    background-color: black;
 }
-
-.topo a{
+.faixa-fixa{
+    position: fixed;
+    width: 1024px;
+    background-color: rgb(180, 196, 87);
+    height: 50px;
+}
+.links{
+    width: 1024px;
+    display: flex;
     justify-content: flex-end;
-    
+    height: 30px;
+}
+.teste1, .teste2, .teste3{
+    flex-wrap: nowrap;
+    padding: 15px;
+}
+.titulo{
+    display: flex;
+}
+.pousada{
+    align-items: center;
+    display: flex;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
 }
