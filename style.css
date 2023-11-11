@@ -3,36 +3,33 @@
 }
 body{
     font-family: 'Source Sans Pro';
+    margin: auto;
+    width: 1024px;
 }
 .topo{
     position: relative;
-    width: 1024px;
-    margin: auto;
     background-color: black;
 }
 .faixa-fixa{
     position: fixed;
-    width: 1024px;
     background-color: rgb(180, 196, 87);
     height: 50px;
+    width: 1024px;
 }
 .links{
-    width: 1024px;
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
     height: 30px;
+    align-items: flex-end;
 }
 .teste1, .teste2, .teste3{
     flex-wrap: nowrap;
-    padding: 15px;
 }
 .titulo{
     display: flex;
 }
 .pousada{
-    align-items: center;
-    display: flex;
-    margin: 15px;
+    flex-wrap: nowrap;
 }
 a{
     text-decoration: none;
