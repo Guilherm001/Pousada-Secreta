@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-cabecalho1 img{
+    width: 180px;
+    height: 09vh;
+}
+.cabecalho-1{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho-1 .links a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.cabecalho-2{
+    background-color: pink;
+    display: flex;
+    width: 180px;
+    height: 91vh;
+}
+.cabecalho-2 .link{
+    flex-direction: column;
+    display: flex;
+    width: 180px;
+    margin-top: 20px;
+}
+.cabecalho-2 .link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.secao-informacoes{
+    display: flex;
+    justify-content: space-between;
+}
+.secao-informacoes .bloco-informacao{
+    display: flex; 
+    align-items: flex-start;
+    margin: 40px;
+}
+.secao-informacoes .bloco-informacao div{
+    background-color: pink;
+    border: 1px solid pink;
+    padding: 30px;
+    border-radius: 30px;
+}
