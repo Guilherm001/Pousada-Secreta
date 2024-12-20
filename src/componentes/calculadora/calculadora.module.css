@@ -1,0 +1,13 @@
+.container_pai{
+    border: 1px solid black;
+    width: 450px;
+    height: 350px;
+}
+.container_filho{
+    display: flex;
+    flex-direction: column;
+}
+.valor_produto{
+    display: flex;
+    flex-direction: column;
+}

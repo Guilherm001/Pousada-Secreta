@@ -1,0 +1,10 @@
+.fundo{
+    background-color: rgb(161, 48, 48);
+    height: 650px;
+    width: 180px;
+    display: flex;
+}
+.margin{
+    margin: auto;
+    display: flex;
+}
